@@ -1,0 +1,23 @@
+
+1. Get the button to respond to the click to start our game. 
+
+*Clear any old text from previous games*
+
+2. Prompt the user for their first action: FIGHT, RUN, or BRIBE.
+
+3. Handle the decision making from the prompt. *LOGIC*
+
+4. Handle incorrect responses. 
+
+5. Have a separate function for each valid action. 
+
+6. Each function should have a WIN and LOSE outcome which will add the text to the document and play the sound effect. 
+
+if(action === "FIGHT")
+
+
+
+FIGHT
+fight 
+Fight 
+fIGHT

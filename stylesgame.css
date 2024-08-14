@@ -1,0 +1,49 @@
+/* Battle Game Project 5/1/2024 */
+
+body {
+     background-image: url("forest.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-color: coral;
+     text-align: center;
+}
+
+h1 {
+     font-family: "Lugrasimo", cursive;
+     font-size: 5em;
+     color: honeydew;
+     text-shadow: coral 2px 4px 2px, black -4px -2px 1px;
+}
+
+div#button {
+     background-color: coral;
+     box-shadow: 4px 4px black;
+     font-size: 2.5em;
+     font-family: "Jersey 15", sans-serif; 
+     width: 25%;
+     margin-left: auto; 
+     margin-right: auto;
+     border-radius: 10px;
+     cursor: pointer; 
+     border: black 2px solid; 
+     transition: all 1s;
+}
+
+div#button:hover {
+     background-color: black; 
+     color: coral;
+}
+
+h2#victory {
+     font-family: "Fugaz One", sans-serif;
+     font-size: 3.1em;
+     color: springgreen; 
+     text-shadow: black 4px 4px 3px, honeydew 3px 3px 2px;
+}
+
+h2#defeat {
+     font-family: "Orbitron", sans-serif;
+     font-size: 2.7em;
+     color: #FF0800;
+     text-shadow: black 4px 4px 3px, honeydew 3px 3px 2px; 
+}
